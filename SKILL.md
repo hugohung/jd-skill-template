@@ -1,7 +1,7 @@
 ---
 name: jd-skill-template
-version: "1.0.0"
-description: This skill should be used when creating, initializing, or validating a WorkBuddy skill for the honghaoxiang account. It enforces the mandatory directory structure (README.md, SKILL.md, references/, examples/, LICENSE), auto-fills the author as honghaoxiang, sets the initial version, and checks for missing files. Use it before publishing any new skill to GitHub.
+version: "1.0.1"
+description: 为 honghaoxiang 账号创建、初始化或验证 WorkBuddy skill。强制执行标准目录结构（README.md、SKILL.md、references/、examples/、LICENSE），自动填入 author: honghaoxiang，设置初始版本号，检查缺失文件。在发布新 skill 到 GitHub 前使用。
 author: honghaoxiang
 agent_created: true
 trigger:
