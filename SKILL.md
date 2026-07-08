@@ -1,6 +1,6 @@
 ---
 name: jd-skill-template
-version: "1.0.1"
+version: "1.0.2"
 description: 为 honghaoxiang 账号创建、初始化或验证 WorkBuddy skill。强制执行标准目录结构（README.md、SKILL.md、references/、examples/、LICENSE），自动填入 author: honghaoxiang，设置初始版本号，检查缺失文件。在发布新 skill 到 GitHub 前使用。
 author: honghaoxiang
 agent_created: true
