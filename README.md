@@ -1,6 +1,6 @@
 # jd-skill-template
 
-> WorkBuddy Skill — 按 honghaoxiang 规范初始化和自检 skill 的工具
+> Agent Skill — 按 honghaoxiang 规范初始化和自检 skill 的工具
 
 ## 功能特性
 
@@ -11,15 +11,15 @@
 
 ## 安装方式
 
-### WorkBuddy 用户
+### Agent 用户
 
 1. 下载 [Release zip](../../releases/latest)
-2. 在 WorkBuddy 技能管理 → 上传技能，选择 zip 文件
+2. 在 Agent 客户端的 Skill 管理 → 上传技能，选择 zip 文件
 
 ### 从源码安装
 
 ```bash
-git clone https://github.com/hugohung/jd-skill-template.git ~/.workbuddy/skills/jd-skill-template
+git clone https://github.com/hugohung/jd-skill-template.git ~/.codex/skills/jd-skill-template
 ```
 
 ## 使用方式
@@ -27,16 +27,16 @@ git clone https://github.com/hugohung/jd-skill-template.git ~/.workbuddy/skills/
 ### 初始化新 skill
 
 ```bash
-python ~/.workbuddy/skills/jd-skill-template/scripts/init.py jd-my-skill --path ~/.workbuddy/skills/
+python ~/.codex/skills/jd-skill-template/scripts/init.py jd-my-skill --path ~/.codex/skills/
 ```
 
 ### 自检现有 skill
 
 ```bash
-python ~/.workbuddy/skills/jd-skill-template/scripts/check.py ~/.workbuddy/skills/jd-my-skill
+python ~/.codex/skills/jd-skill-template/scripts/check.py ~/.codex/skills/jd-my-skill
 ```
 
-### 在 WorkBuddy 对话中
+### 在支持 Skill 的 Agent 对话中
 
 直接说：
 > "帮我创建一个新 skill，叫 jd-xxx"

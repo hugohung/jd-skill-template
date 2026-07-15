@@ -64,7 +64,7 @@ TODO: 列出 references/ 下的参考文件。
 
 README_TEMPLATE = """# {title}
 
-> WorkBuddy Skill — TODO: 一句话描述
+> Agent Skill — TODO: 一句话描述
 
 ## 功能特性
 
@@ -72,20 +72,20 @@ README_TEMPLATE = """# {title}
 
 ## 安装方式
 
-### WorkBuddy 用户
+### Agent 用户
 
 1. 下载 [Release zip](../../releases/latest)
-2. 在 WorkBuddy 技能管理 → 上传技能，选择 zip 文件
+2. 在 Agent 客户端的 Skill 管理 → 上传技能，选择 zip 文件
 
 ### 从源码安装
 
 ```bash
-git clone https://github.com/hugohung/{name}.git ~/.workbuddy/skills/{name}
+git clone https://github.com/hugohung/{name}.git ~/.codex/skills/{name}
 ```
 
 ## 使用方式
 
-在 WorkBuddy 对话中直接说：
+在支持 Skill 的 Agent 对话中直接说：
 > "TODO: 触发示例"
 
 ## License
